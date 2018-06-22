@@ -1,0 +1,1 @@
+1. The first time you run this program, please run as administrator so that this program can successfully update the registry for file associations.

@@ -1,0 +1,33 @@
+Version 1.5.0, 05/20/2017
+	Added Pixel Color to View, which can be used to get pixel color of specified position in the image.
+	Added Lock display region to Settings. When this setting is checked, image display ratio and region does change when switching between same-size images.
+	Conversion between YCbCr and RGB dialog was made modeless for convenience.
+	Improved precision of conversion between YCbCr and RGB.
+
+Version 1.4.0, 04/29/2017
+	Improved rgb/bgr to rgba/bgra/abgr/argb conversion: set alpha value as 255 when "Alpha as opacity" is set, otherwise set alpha value as 0. Previous versions always set alpha value as 0.
+	Remember tool bar and status bar show/hide.
+	Remember window position and size.
+	Modified short-cut key of "Save as": the new short-cut key is Ctrl+A.
+
+Version 1.3.1, 04/08/2017
+	Added menu items: View -> Next image, View -> Previous image.
+
+Version 1.3.0, 04/02/2017
+	Added PNG file format support.
+	Added zoom in and zoom out. Previous version has only fit-in and 1:1, this version supports more zoom ratios.
+	Added Format conversion: JPEG to RAW, RAW to JPEG.
+
+Version 1.2.0, 03/26/2017
+	Added JPEG file format support.
+	Improved BMP file format support: previous version supports only 24bit and 32bit, this version supports 1bit, 4bit, 8bit, 16bit, in addition to 24bit and 32bit.
+
+Version 1.1.0, 03/12/2017
+	Added rename: Add image size to file name, Remove string from file name.
+	Added Format conversion: BMP to RAW, RAW to BMP.
+
+Version 1.0.1, 03/05/2017
+	Program settings like background color are saved in RawViewer.ini.
+
+Version 1.0.0, 12/24/2016
+	Initial version.
